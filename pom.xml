@@ -36,7 +36,7 @@
             <artifactId>corn-httpclient</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/io.vertx/vertx-core &ndash;&gt;-->
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
@@ -59,6 +59,30 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.auth</groupId>
+            <artifactId>google-auth-library-oauth2-http</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
+        <dependency>
+            <groupId>com.google.api-client</groupId>
+            <artifactId>google-api-client</artifactId>
+            <version>1.35.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-sheets -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-sheets</artifactId>
+            <version>v4-rev614-1.18.0-rc</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client-jetty -->
+        <dependency>
+            <groupId>com.google.oauth-client</groupId>
+            <artifactId>google-oauth-client-jetty</artifactId>
+            <version>1.34.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
